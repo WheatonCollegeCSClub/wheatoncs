@@ -4,16 +4,28 @@ h1 {
 	padding:5px;
 }
 .breadcrumbs{
+	color:orange;
 	padding:5px
 }
 .page{
-	background-color:darkblue;
+	background-color:teal;
 	border:2px solid black;
 }
 h2 {
-	color:red;
+	color:black;
 	padding:5px;
+	text-align:center;
 }
 p {
-	color:yellow;
+	color:orange;
 }
+
+.centerPar{
+	text-align:center;
+}
+
+.imgCenter{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+]
