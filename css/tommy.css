@@ -1,26 +1,46 @@
+.clearfix:after{
+	content:"";
+	display:table;
+	clear:both;
+}
 h1 {
 	background-color:darkblue; 
 	color:white; 
 	padding:5px;
 	font-family:Garamond;
+	font-size:56px;
 }
-.breadcrumbs{
-	padding:5px
-}
-.page{
+#page{
 	background-color:green;
 	border:2px solid black;
+	position:relative;
 }
 h2 {
 	color:white;
 	padding:5px;
 	font-family:Garamond;
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+	width:98%;
+	font-size:40px;
 }
 p {
 	color:black;
-	font-family:cursive;
+	font-family:Verdana;
+	font-size:18px;
 }
 .image{
 	display:block;
+	width:100%;
+}
+#right{
+	display:block;
 	float:right;
+	width:30%;
+}
+#left{
+	display:block;
+	float:left;
+	width:69%;
+	padding:5px
 }
