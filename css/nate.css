@@ -11,12 +11,19 @@ h1 {
 	padding:5px;
 	text-align:center;
 }
+
+hr{
+	height:5px;
+	background-color:white;
+	border:0;
+}
+
 .breadcrumbs{
 	color:black;
 	padding:5px
 }
 .page{
-	background-color:white;
+	background-color:teal;
 	border:2px solid black;
 	margin: 0 auto;
         max-width: 900px;
